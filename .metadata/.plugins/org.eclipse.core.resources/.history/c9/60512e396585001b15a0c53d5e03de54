@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Employee Directory</title>
+<link rel="stylesheet" th:href="@{/css/demo.css}" />
+</head>
+<body>
+
+<h2>Employee Directory</h2>
+</body>
+</html>

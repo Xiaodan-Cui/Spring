@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=cruddemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.luv2code.springboot.cruddemo.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1615681367000"/>
+    <typeInfo handle="=cruddemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.luv2code.springboot.cruddemo.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1615684631000"/>
+    <typeInfo handle="=22-jpa-cruddemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.luv2code.springboot.cruddemo.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1615681367000"/>
+    <typeInfo handle="=23-spring-data-jpa-cruddemo/\/Users\/cxd\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.4.5\/spring-data-jpa-2.4.5.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.4.5=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1615678983000"/>
+</typeInfoHistroy>

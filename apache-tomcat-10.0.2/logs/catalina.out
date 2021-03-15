@@ -1,0 +1,45 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2021 11:46:58.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.2
+22-Feb-2021 11:46:58.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 18:48:46 UTC
+22-Feb-2021 11:46:58.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.2.0
+22-Feb-2021 11:46:58.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2021 11:46:58.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+22-Feb-2021 11:46:58.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2021 11:46:58.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home
+22-Feb-2021 11:46:58.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           14.0.1+7
+22-Feb-2021 11:46:58.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2021 11:46:58.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/cxd/Desktop/Spring/apache-tomcat-10.0.2
+22-Feb-2021 11:46:58.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/cxd/Desktop/Spring/apache-tomcat-10.0.2
+22-Feb-2021 11:46:58.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2021 11:46:58.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2021 11:46:58.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Feb-2021 11:46:58.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Feb-2021 11:46:58.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2021 11:46:58.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/conf/logging.properties
+22-Feb-2021 11:46:58.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2021 11:46:58.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2
+22-Feb-2021 11:46:58.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/temp
+22-Feb-2021 11:46:58.304 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/cxd/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2021 11:46:58.799 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2021 11:46:58.882 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1040] milliseconds
+22-Feb-2021 11:46:58.955 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2021 11:46:58.956 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.2]
+22-Feb-2021 11:46:58.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/docs]
+22-Feb-2021 11:46:59.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/docs] has finished in [441] ms
+22-Feb-2021 11:46:59.411 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/manager]
+22-Feb-2021 11:46:59.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/manager] has finished in [67] ms
+22-Feb-2021 11:46:59.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/examples]
+22-Feb-2021 11:47:00.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/examples] has finished in [635] ms
+22-Feb-2021 11:47:00.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/ROOT]
+22-Feb-2021 11:47:00.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/ROOT] has finished in [36] ms
+22-Feb-2021 11:47:00.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/host-manager]
+22-Feb-2021 11:47:00.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/cxd/Desktop/Spring/apache-tomcat-10.0.2/webapps/host-manager] has finished in [36] ms
+22-Feb-2021 11:47:00.194 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2021 11:47:00.225 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1342] milliseconds
+22-Feb-2021 11:47:21.922 INFO [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [:sess=eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNjAyMThjZmJmYTdhMzQzOGU4MWRjN2RkIn19; express:sess.sig=cn66uWt0NVLWVTDNR5nqlon4mjg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.

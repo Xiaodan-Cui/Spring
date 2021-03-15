@@ -1,0 +1,9 @@
+package com.luv2code.springdemo.config;
+
+
+@Configuration
+@EnableWebMVC
+@ComponentSan("com.luv2code.springdemo")
+public class DemoAppConfig {
+
+}

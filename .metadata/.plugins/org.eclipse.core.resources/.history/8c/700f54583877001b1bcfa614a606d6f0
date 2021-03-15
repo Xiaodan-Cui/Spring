@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Student Form</title>
+</head>
+<body>
+<form:form action="processForm" modelAttribute="student">
+
+	First Name : <input type="text" path="firstName" />
+	<br><br>
+
+	Last Name : <input type="text" path="lastName" />
+	<br><br>
+
+	<input type="submit" value="Submit" />
+
+</form>
+
+
+</body>
+</html>

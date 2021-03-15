@@ -1,0 +1,9 @@
+package com.luv2code.springsecurity.demo.controller;
+
+@Controller
+public class LoginController {
+	@GetMapping(/"showMayLoginPage")
+	public string showMyLoginPage() {
+		return "login-page"
+	}
+}

@@ -1,0 +1,28 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="security" uri="http://jwww.springframework.org/security/tags"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Company Home Page</title>
+</head>
+<body>
+ <h2> COmpany Home Page-Yoooo-no soup</h2>
+ <hr>
+ welcome to our home\
+ 
+ <hr>
+ 
+ <p>User:<security:authentication property="principle.username"/>
+ 
+ <br><br>
+ <p>Role:<security:authentication property="principle.authorities"/>
+ </p>
+ <hr>
+ 
+ <form:form action="${pageContext.request.contextPath}/logout"
+ method="post">
+ <input type="submit" value="Logout" />
+ </form:form>
+</body>
+</html>

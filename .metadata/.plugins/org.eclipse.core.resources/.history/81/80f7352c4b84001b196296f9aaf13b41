@@ -1,0 +1,5 @@
+info.app.name=Good APP
+info.app.description=A rays fun app
+info.app.version=1.0.0
+
+management.endpoints.web.exposur.include=*

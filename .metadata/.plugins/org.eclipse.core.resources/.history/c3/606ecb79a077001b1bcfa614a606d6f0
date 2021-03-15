@@ -1,0 +1,18 @@
+package com.luv2code.springdemo.mvc.validation;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.annotation.*; 
+
+import javax.validation.Constraint;
+
+@Constraint(validatedBy = CourseCodeConstraintValidator.class)
+@Target({ElementType.METHOD, ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CourseCode {
+//define default course code
+	public String value() default "LUV";
+	//defin default error message
+	
+	//defin default payloads
+}

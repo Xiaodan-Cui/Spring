@@ -1,0 +1,21 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Leader Page</title>
+</head>
+<body>
+ <h2> Leaders home paer</h2>
+ <hr>
+ welcome to our leaders
+ 
+
+ 
+ <form:form action="${pageContext.request.contextPath}/logout"
+ method="post">
+ <input type="submit" value="Logout" />
+ </form:form>
+</body>
+</html>
